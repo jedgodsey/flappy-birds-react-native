@@ -109,7 +109,7 @@ export default function App() {
   return (
     <TouchableWithoutFeedback onPress={jump}>
       <View style={styles.container}>
-        {isGameOver && <Text style={{fontSize: '30'}}>{score}</Text>}
+        {isGameOver && <Text style={{fontSize: 30}}>{score}</Text>}
         <Bird 
           birdBottom = {birdBottom} 
           birdLeft = {birdLeft}
